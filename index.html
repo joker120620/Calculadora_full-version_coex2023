@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="container">
+          <div class="calculator">
+            <input type="text" id="display" class="input" disabled>
+              <button class="btn" onclick="agregar(1)" id="1">1</button>
+                <button class="btn" onclick="agregar(2)" id="2">2</button>
+                <button class="btn" onclick="agregar(3)" id="3">3</button>
+                <button class="btn" onclick="eliminar(1)" id="46">DEL</button>
+                <button class="btn" onclick="agregar(4)"id="4">4</button>
+                <button class="btn" onclick="agregar(5)" id="5">5</button>
+                <button class="btn" onclick="agregar(6)" id="6">6</button>
+                 <button class="btn" onclick="agregar('/')"id="/">/</button>
+                <button class="btn" onclick="agregar(7)" id="7">7</button>
+                <button class="btn" onclick="agregar(8)" id="8">8</button>
+                <button class="btn" onclick="agregar(9)" id="9">9</button>
+                <button class="btn" onclick="agregar('*')"id="*">*</button>
+                <button class="btn" onclick="cambiarTema() " id="32">DARK</button>
+                <button class="btn" onclick="agregar(0)" id="0">0</button> 
+                <button class="btn" onclick="agregar('.')"id=".">.</button>
+                <button class="btn" onclick="eliminar(0)" id="c">C</button>
+             
+             
+                <button class="btn" onclick="agregar('-')"id="-">-</button>
+                <button class="btn" onclick="agregar('+')"id="+">+</button>
+                <button class="btn" onclick="result() "id="13">=</button>
+             
+            
+              
+          </div>
+            
+            <div class="container_btn_numbers">
+              
+            </div>
+            <div class="container_btn_operadores">
+
+                
+                
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+</body>
+</html>
