@@ -68,7 +68,7 @@ document.addEventListener('keydown', (event) => {
     agregar(keyValue)
   }else if(keyValue=="/"|| keyValue=="*"||keyValue=="+"||keyValue=="-"||keyValue=="." ){
     agregar(keyValue)
-  }else if(codeValue=67){
+  }else if(codeValue==67){
     eliminar(0)
   }
   marcar(keyValue)
